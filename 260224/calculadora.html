@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        form{
+            margin-top: 100px;
+            width: 75%;
+            font-family: Arial, Helvetica, sans-serif;
+            color: blue;
+        }
+
+        table{
+            background-color: antiquewhite;
+        }
+    </style>
+
+</head>
+<body>
+    <form action="calcul.php" method="post">
+        <h1>Calculadora</h1>
+        <table>
+            <tr>
+                <td>num:</td>
+                <td><input type="number" name="number_1" required></td>
+            </tr>
+            <tr>
+                <td>num2</td>
+                <td><input type="number2" name="number_2" required></td>
+            </tr>
+        </table>
+            <label>escolha uma operacao</label>
+            <input type="radio" name="operacao" value="soma">
+            <label for="soma">soma</label>
+            <input type="radio" name="operacao" id="sub" value="subtracao">
+            <label for="sub">subtracao</label><br>
+            <input type="submit" value="calcular">
+    </form>
+
+
+    
+</body>
+</html>
